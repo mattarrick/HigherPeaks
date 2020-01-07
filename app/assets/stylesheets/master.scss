@@ -1,6 +1,10 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
+body, html {
+  height: 100%;
+}
+
 .navbar {
   color: white;
   font-family: 'Teko', sans-serif;
@@ -13,4 +17,43 @@
   color: white;
   font-family: 'Teko', sans-serif;
   font-weight: 100;
+}
+
+.hero {
+  background: image_url('PikesPeak.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.frosty h1 {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-weight: 200;
+  text-shadow: rbga(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-weight: 200;
+  text-shadow: rbga(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0px;
 }
