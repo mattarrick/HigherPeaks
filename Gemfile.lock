@@ -53,9 +53,10 @@ GEM
     bindex (0.8.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
-    bootstrap (4.0.0.alpha6)
-      autoprefixer-rails (>= 6.0.3)
-      sass (>= 3.4.19)
+    bootstrap (4.4.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.14.3, < 2)
+      sassc-rails (>= 2.0.0)
     builder (3.2.4)
     byebug (11.0.1)
     capybara (3.30.0)
@@ -114,7 +115,7 @@ GEM
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     pg (1.2.1)
-    popper_js (1.11.1)
+    popper_js (1.14.5)
     public_suffix (4.0.3)
     puma (3.12.2)
     rack (2.0.8)
@@ -163,6 +164,14 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    sassc (2.2.1)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -203,7 +212,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bootstrap (= 4.0.0.alpha6)
+  bootstrap (>= 4.3.1)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
@@ -212,7 +221,7 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  popper_js (~> 1.11.1)
+  popper_js (~> 1.14.3)
   puma (~> 3.11)
   rails (~> 5.2.3)
   rails-assets-tether (>= 1.3.3)!
