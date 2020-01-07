@@ -1,1 +1,7 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+.navbar-inverse .navbar-brand {
+  color: #9013E7;
+  font-family: 'Teko', sans-serif;
+}
