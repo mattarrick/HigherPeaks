@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .box {
-  background: rgba(0.5, 0.5, 0.5, 0.5);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .feature {
@@ -70,4 +70,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 p {
   text-align: left;
+}
+
+img {
+  border-radius: 8px;
+  height: 250px;
 }
