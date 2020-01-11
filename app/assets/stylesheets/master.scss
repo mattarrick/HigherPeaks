@@ -72,7 +72,28 @@ p {
   text-align: left;
 }
 
-img {
+.welcome{
+  margin: auto 25px;
+  font-weight: 550;
+}
+.welcome h3 {
+  color: #C61D94;
+}
+
+.aboutMe {
+  font-weight: 550;
+}
+
+.aboutMe img {
   border-radius: 8px;
   height: 250px;
+  margin: 25px auto;
+}
+
+.aboutMe h6 {
+  color: #C61D94;
+}
+
+.sBox {
+  background: rgba(255, 255, 255, 0.7);
 }
