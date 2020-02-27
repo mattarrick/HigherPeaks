@@ -21,22 +21,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+            <%= link_to 'Home', static_pages_home_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <!-- <a class="nav-link" href="#">About Me</a> -->
+            <%= link_to 'About Me', static_pages_about_me_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <!-- <a class="nav-link" href="#">Services</a> -->
+            <%= link_to 'Services', static_pages_services_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Forms</a>
+            <!-- <a class="nav-link" href="#">Forms</a> -->
+            <%= link_to 'Forms', static_pages_forms_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Patient Info</a>
+            <!-- <a class="nav-link" href="#">Patient Info</a> -->
+            <%= link_to 'Patient Info', static_pages_patient_info_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <!-- <a class="nav-link" href="#">Contact</a> -->
+            <%= link_to 'Contact', static_pages_contact_path, class: 'nav-link' %>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
