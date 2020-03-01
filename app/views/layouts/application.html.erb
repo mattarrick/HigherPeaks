@@ -13,7 +13,10 @@
     <!-- navbar-expand-lg -->
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-inverse bg-inverse">
-      <a class="navbar-brand" href="#">Higher Peaks Counseling</a>
+      <!-- <a class="navbar-brand" href="#">Higher Peaks Counseling</a> -->
+      <a class="navbar-brand">
+        <%= link_to 'Higher Peaks Counseling', static_pages_home_path, class: 'navbar-brand' %>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,24 +24,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <%= link_to 'Home', static_pages_home_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <%= link_to 'About Me', static_pages_about_me_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <%= link_to 'Services', static_pages_services_path, class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Forms</a>
+            <%= link_to 'Forms', static_pages_forms_path, class: 'nav-link' %>
           </li>
+          <!-- <li class="nav-item"> -->
+           <!--  <%= link_to 'Patient Info', static_pages_patient_info_path, class: 'nav-link' %>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#">Patient Info</a>
+            <%= link_to 'Contact', static_pages_contact_path, class: 'nav-link' %>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
@@ -48,7 +51,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li> -->
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->
