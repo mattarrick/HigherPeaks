@@ -32,16 +32,27 @@
           <li class="nav-item">
             <%= link_to 'Services', static_pages_services_path, class: 'nav-link' %>
           </li>
-          <li class="nav-item">
-            <%= link_to 'Forms', static_pages_forms_path, class: 'nav-link' %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Forms
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Consent for Release of Infomation</a>
+              <a class="dropdown-item" href="#">Patient Change of Information</a>
+              <!-- <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
           </li>
+          <!-- <li class="nav-item">
+            <%= link_to 'Forms', static_pages_forms_path, class: 'nav-link' %>
+          </li> -->
           <!-- <li class="nav-item"> -->
            <!--  <%= link_to 'Patient Info', static_pages_patient_info_path, class: 'nav-link' %>
           </li> -->
           <li class="nav-item">
             <%= link_to 'Contact', static_pages_contact_path, class: 'nav-link' %>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
@@ -51,7 +62,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
+          </li> -->
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->

@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import "font-awesome";
 
 /*body, html {
   height: 100%;
@@ -152,4 +153,10 @@ p {
 
 .sBox {
   background: rgba(255, 255, 255, 0.7);
+}
+
+.phone-button {
+  /*font-family: 'Teko', sans-serif;*/
+/*  margin-right: 10px;
+  padding-right: 10px;*/
 }

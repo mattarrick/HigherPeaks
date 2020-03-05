@@ -72,3 +72,4 @@ end
 
 gem "geocoder"
 
+gem "font-awesome-rails"
